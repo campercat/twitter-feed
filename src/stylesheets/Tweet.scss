@@ -1,0 +1,24 @@
+/* YOUR STYLING HERE */
+.main-container {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-info > p {
+  margin-right: 2em;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
